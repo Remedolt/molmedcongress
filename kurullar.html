@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MolMed Congress 2026 — Kurullar / Committees</title>
+<meta name="description" content="XI. International Congress of Molecular Medicine &amp; I. Multidisciplinary Wellness and Longevity Symposium — 23–27 December 2026, Istanbul Nişantaşı University.">
+<link rel="icon" href="assets/img/favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,500&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="brand" aria-label="MolMed Congress — Home">
+      <img src="assets/img/logo.png" alt="Turkish Society of Molecular Medicine">
+      <span class="brand-text">
+        <strong data-i18n="brand_title"></strong>
+        <span>23–27 Aralık / December 2026</span>
+      </span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Menu">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <nav class="main-nav">
+      <a href="index.html" class="navlink" data-route="home" data-i18n="nav_home"></a>
+      <div class="nav-dropdown">
+        <button type="button" class="navlink navlink--dropdown active" data-dropdown-toggle aria-haspopup="true" aria-expanded="false">
+          <span data-i18n="nav_kongre"></span>
+          <svg class="chevron" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+        </button>
+        <div class="nav-dropdown-menu" role="menu">
+          <a href="davet.html" class="navlink" data-route="davet" data-i18n="nav_davet"></a>
+          <a href="kurullar.html" class="navlink active" data-route="kurullar" data-i18n="nav_kurullar"></a>
+          <a href="genel-bilgiler.html" class="navlink" data-route="genel" data-i18n="nav_genel"></a>
+        </div>
+      </div>
+      <a href="program.html" class="navlink" data-route="program" data-i18n="nav_program"></a>
+      <a href="bildiri.html" class="navlink" data-route="bildiri" data-i18n="nav_bildiri"></a>
+      <a href="kayit.html" class="navlink" data-route="kayit" data-i18n="nav_kayit"></a>
+      
+      <a href="iletisim.html" class="navlink" data-route="iletisim" data-i18n="nav_iletisim"></a>
+      <a href="kayit.html" class="cta">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4z"/></svg>
+        <span data-i18n="nav_register_cta"></span>
+      </a>
+      <div class="lang-switch">
+        <button data-lang-btn="tr" onclick="setLang('tr')">TR</button>
+        <button data-lang-btn="en" onclick="setLang('en')">EN</button>
+      </div>
+      <button class="theme-toggle" id="themeToggle" onclick="toggleTheme()" aria-label="Toggle theme" title="Toggle light/dark"></button>
+    </nav>
+  </div>
+</header>
+<main id="pages">
+<section class="page is-active" id="page-kurullar">
+<section class="page-hero"><div class="container"><div class="eyebrow" data-i18n="nav_kurullar"></div><h1 data-i18n="kurullar_title"></h1><div class="breadcrumb"><a href="index.html" data-i18n="nav_home"></a> / <span data-i18n="nav_kurullar"></span></div></div></section>
+  <section class="section">
+    <div class="container">
+      <div class="notice" data-i18n="kurullar_placeholder_note"></div>
+      <div class="grid grid--2">
+        <div class="card"><div class="icon"><span class="ic" data-icon="award" data-size="23"></span></div><h3 data-i18n="kurullar_honorary"></h3><p>—</p></div>
+        <div class="card"><div class="icon"><span class="ic" data-icon="users" data-size="23"></span></div><h3 data-i18n="kurullar_congress_president"></h3><p>—</p></div>
+        <div class="card"><div class="icon"><span class="ic" data-icon="users" data-size="23"></span></div><h3 data-i18n="kurullar_organizing"></h3><p>—</p></div>
+        <div class="card"><div class="icon"><span class="ic" data-icon="flask" data-size="23"></span></div><h3 data-i18n="kurullar_scientific"></h3><p>—</p></div>
+        <div class="card" style="grid-column:1/-1;"><div class="icon"><span class="ic" data-icon="globe" data-size="23"></span></div><h3 data-i18n="kurullar_international"></h3><p>—</p></div>
+      </div>
+    </div>
+  </section>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand"><img src="assets/img/logo.png" alt="Turkish Society of Molecular Medicine"></div>
+        <p data-i18n-html="footer_line1"></p>
+      </div>
+      <div>
+        <h4 data-i18n="footer_quicklinks"></h4>
+        <ul>
+          <li><a href="davet.html" data-i18n="nav_davet"></a></li>
+          <li><a href="program.html" data-i18n="nav_program"></a></li>
+          <li><a href="bildiri.html" data-i18n="nav_bildiri"></a></li>
+          <li><a href="kayit.html" data-i18n="nav_kayit"></a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="nav_iletisim"></h4>
+        <ul>
+          <li><span data-i18n="iletisim_email"></span>: <a href="mailto:info@molmedcongress.com">info@molmedcongress.com</a></li>
+          <li><span data-i18n="iletisim_phone"></span>: +90 5XX XXX XX XX</li>
+          <li>molmedcongress.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span data-i18n="footer_copy"></span>
+      <span>molmedcongress.com</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
