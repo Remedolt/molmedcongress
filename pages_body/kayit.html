@@ -1,0 +1,58 @@
+<section class="page is-active" id="page-kayit">
+<section class="page-hero"><div class="container"><div class="eyebrow" data-i18n="nav_kayit"></div><h1 data-i18n="kayit_title"></h1><div class="breadcrumb"><a href="index.html" data-i18n="nav_home"></a> / <span data-i18n="nav_kayit"></span></div></div></section>
+  <section class="section">
+    <div class="container">
+      <div style="max-width:760px;margin:0 auto 32px;">
+        <p data-i18n="kayit_intro"></p>
+        <div class="card"><h3 data-i18n="kayit_fees_title"></h3><p data-i18n="kayit_fees_note"></p></div>
+      </div>
+      <div class="form-card" style="max-width:900px;margin:0 auto;">
+        <div id="kayitFormWrap">
+          <form id="kayitForm" novalidate>
+            <div class="form-grid">
+              <div class="field"><label data-i18n="form_first_name"></label><input type="text" name="first_name" required></div>
+              <div class="field"><label data-i18n="form_last_name"></label><input type="text" name="last_name" required></div>
+              <div class="field"><label data-i18n="form_title"></label><input type="text" name="title" data-i18n-placeholder="form_title_placeholder"></div>
+              <div class="field"><label data-i18n="form_institution"></label><input type="text" name="institution" required></div>
+              <div class="field"><label data-i18n="form_email"></label><input type="email" name="email" required></div>
+              <div class="field"><label data-i18n="form_phone"></label><input type="tel" name="phone" required></div>
+              <div class="field"><label data-i18n="form_country"></label><input type="text" name="country" required></div>
+              <div class="field">
+                <label data-i18n="form_category"></label>
+                <select name="category" required>
+                  <option value=""></option>
+                  <option value="academic" data-i18n="form_category_academic"></option>
+                  <option value="student" data-i18n="form_category_student"></option>
+                  <option value="foreign" data-i18n="form_category_foreign"></option>
+                  <option value="listener" data-i18n="form_category_listener"></option>
+                </select>
+              </div>
+              <div class="field full">
+                <label data-i18n="form_participation_type"></label>
+                <div class="radio-group">
+                  <label><input type="radio" name="participation_type" value="inperson" required> <span data-i18n="form_participation_inperson"></span></label>
+                  <label><input type="radio" name="participation_type" value="online"> <span data-i18n="form_participation_online"></span></label>
+                </div>
+              </div>
+              <div class="field full">
+                <label data-i18n="form_invoice_type"></label>
+                <select name="invoice_type">
+                  <option value=""></option>
+                  <option value="individual" data-i18n="form_invoice_individual"></option>
+                  <option value="institutional" data-i18n="form_invoice_institutional"></option>
+                </select>
+              </div>
+              <div class="field full"><label data-i18n="form_notes"></label><textarea name="notes"></textarea></div>
+              <div class="field full">
+                <div class="checkbox-group"><label><input type="checkbox" name="kvkk" required> <span data-i18n="form_kvkk"></span> <span class="req">*</span></label></div>
+              </div>
+            </div>
+            <p class="field-help" style="margin-top:16px;" data-i18n="form_required_note"></p>
+            <button class="btn btn--primary btn--block" type="submit" style="margin-top:10px;"><span class="ic" data-icon="ticket" data-size="18"></span> <span data-i18n="form_submit_register"></span></button>
+            <div class="preview-note" data-i18n="preview_form_note"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
